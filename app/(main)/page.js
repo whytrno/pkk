@@ -3,6 +3,7 @@ import Hero from "@/app/(main)/hero";
 import VisiMisi from "@/app/(main)/visi-misi";
 import Galeri from "@/app/(main)/galeri";
 import Footer from "@/app/(main)/footer";
+import Struktur from "@/app/(main)/struktur";
 
 const Home = () => {
     return (
@@ -12,6 +13,7 @@ const Home = () => {
                 <Hero/>
             </div>
             <VisiMisi/>
+            <Struktur/>
             <Galeri/>
             <Footer/>
         </div>
