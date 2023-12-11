@@ -10,7 +10,8 @@ const Struktur = () => {
                 {/*    Consequatur facilis itaque non odio pariatur repellendus totam!</p>*/}
             </div>
             <div className="relative h-[60rem] w-full rounded-xl">
-                <Image src="/images/hero.jpeg" alt="Struktur Organisasi" fill className="object-cover rounded-xl"/>
+                <Image src="/images/struktur-organisasi.jpeg" alt="Struktur Organisasi" fill objectFit="contain"
+                       className="object-cover rounded-xl"/>
             </div>
         </div>
     )

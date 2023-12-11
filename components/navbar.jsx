@@ -1,7 +1,12 @@
+import Image from "next/image";
+
 const Navbar = () => {
     return (
         <div className="flex justify-between items-center py-5 h-20 px-20">
-            <p className="text-3xl font-bold text-primary block">PKK Berkoh</p>
+            <div className="flex gap-5 items-center">
+                <Image src="/images/logo.png" alt="Logo" height={60} width={60}/>
+                <p className="text-3xl font-bold text-primary block">PKK Berkoh</p>
+            </div>
             <div className="flex gap-10 items-center">
                 {/*<h1 className="text-red-800">Jasa Teknologi</h1>*/}
                 {/*<a href="#"*/}
